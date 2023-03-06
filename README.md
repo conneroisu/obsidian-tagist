@@ -138,4 +138,3 @@ Source: Conversation with Bing, 3/5/2023(1) 17 Obsidian Plugins You Should Be Us
 (5) obsidian-plugin · GitHub Topics · GitHub. https://github.com/topics/obsidian-plugin Accessed 3/5/2023.
 (6) 7 Useful Obsidian Plugins To Elevate Your Notes Vault (2021). https://www.redgregory.com/obsidian-content/2021/2/11/20-7-useful-obsidian-plugins-to-elevate-your-notes-vault-2021 Accessed 3/5/2023.
 
-
