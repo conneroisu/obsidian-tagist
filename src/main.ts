@@ -5,11 +5,14 @@ import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Set
 interface ObsidianTagistSettings {
 	isTags: boolean;
 	apiKey: string;
+	debug: boolean;
 }
 
 const DEFAULT_SETTINGS: ObsidianTagistSettings = {
 	isTags: true,
-	apiKey: 'default api key'
+	apiKey: 'default api key',
+	debug: false
+
 }
 
 export default class ObsidianTagist extends Plugin {
@@ -54,12 +57,12 @@ export default class GPT3Summarizer extends Plugin {
 
 	async onload() {
 		await this.loadSettings();
-
 		// This creates an icon in the left ribbon.
 		const ribbonIconEl = this.addRibbonIcon('dice', 'ObsidianTagist Plugin', (evt: MouseEvent) => {
 			// Called when the user clicks the icon.
 			new Notice('This is a notice!');
 		});
+
 		// Perform additional things with the ribbon
 		ribbonIconEl.addClass('my-plugin-ribbon-class');
 
@@ -193,6 +196,16 @@ class ObsidianTagistSettingTab extends PluginSettingTab {
 				.onChange(async (value) => {
 					console.log('Secret: ' + value);
 					this.plugin.settings.apiKey = value;
+					await this.plugin.saveSettings();
+				}));
+		new Setting (containerEl)
+			.setName('Debug Mode')
+			.setDesc('If true, the plugin will log debug messages to the console.')
+			.addToggle(toggle => toggle
+				.setValue(this.plugin.settings.debugMode)
+				.onChange(async (value) => {
+					console.log('Toggle: ' + value);
+					this.plugin.settings.debugMode = value;
 					await this.plugin.saveSettings();
 				}));
 	}
