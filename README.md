@@ -1,4 +1,5 @@
 # Obsidian Obsidian Tagist Plugin
+
 Obsidian is a versatile note-taking application that allows you to create and manage your own knowledge base². Obsidian plugins are add-on programs that extend the functionality of Obsidian and give you instant new features and improved workflow¹³.
 
 Your plugin sounds interesting. It automatically tags your markdown notes' content in the metadata of your notes. This can help you organize and search your notes more easily.
@@ -134,5 +135,4 @@ Source: Conversation with Bing, 3/5/2023(1) 17 Obsidian Plugins You Should Be Us
 (4) Plugins - Obsidian. https://obsidian.md/plugins Accessed 3/5/2023.
 (5) obsidian-plugin · GitHub Topics · GitHub. https://github.com/topics/obsidian-plugin Accessed 3/5/2023.
 (6) 7 Useful Obsidian Plugins To Elevate Your Notes Vault (2021). https://www.redgregory.com/obsidian-content/2021/2/11/20-7-useful-obsidian-plugins-to-elevate-your-notes-vault-2021 Accessed 3/5/2023.
-
 
