@@ -1,7 +1,4 @@
 # Obsidian Obsidian Tagist Plugin
-
-Hello, this is Bing. I can help you develop a readme file for your Obsidian plugin.😊
-
 Obsidian is a versatile note-taking application that allows you to create and manage your own knowledge base². Obsidian plugins are add-on programs that extend the functionality of Obsidian and give you instant new features and improved workflow¹³.
 
 Your plugin sounds interesting. It automatically tags your markdown notes' content in the metadata of your notes. This can help you organize and search your notes more easily.
